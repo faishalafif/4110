@@ -19,6 +19,12 @@ public class Jurnal1 {
         for(int i = 1; i < nj; i++){
             System.out.print(fib[i]+ " ");
         }
+        System.out.println("");
+        int result = 0;
+        for(int i = 1; i < nj; i++){
+            result += fib[i];
+        }
+        System.out.println(result);
     }
     
 }
